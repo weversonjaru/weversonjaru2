@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Marina Sena</title>
+    <style>
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+@font-face {
+  font-family: "Marina";
+  src: url(../fonts/idroid.otf) format("opentype");
+  font-weight: normal;
+}
+
+:root {
+  --cor0: #c5ebd6;
+  --cor1: #e18383;
+  --cor2: #dc3d3d;
+  --cor3: #a82f2f;
+  --cor4: #5c1a1a;
+  --cor5: #3d0606;
+
+  --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+  --fonte-destaque: "Bebas Neue", cursive;
+  --fonte-android: "Android", cursive;
+}
+
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color:#e18383;
+  font-family: var(--fonte-padrao);
+}
+
+header {
+  background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
+  min-height: 150px;
+  text-align: center;
+  padding-top: 30px;
+
+  h1 {
+    color: #fff;
+    font-family: var(--fonte-destaque);
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px #0000004b;
+    font-weight: normal;
+  }
+
+  p {
+    font-family: var(--fonte-padrao);
+    font-size: 1.2rem;
+    color: #fff;
+    max-width: 600px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    padding-bottom: 50px;
+    text-shadow: 2px 2px 0px #0000004b;
+  }
+
+  nav {
+    background-color: var(--cor5);
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba($color: #000000, $alpha: 0.3);
+
+    a {
+      color: var(--cor1);
+      font-weight: bold;
+      text-decoration: none;
+      padding: 10px;
+      transition: 0.2s;
+    }
+
+    a:hover {
+      background-color: var(--cor3);
+      color: var(--cor5);
+    }
+  }
+}
+
+main {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 0 0 10px 10px;
+  min-width: 320px;
+  max-width: 1000px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+
+  h1 {
+    color: var(--cor5);
+    font-family: var(--fonte-android);
+    font-weight: normal;
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-family: var(--fonte-android);
+    color: var(--cor4);
+    font-size: 1.3rem;
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+    text-indent: 8px;
+    font-weight: normal;
+  }
+
+  p {
+    margin: 15px 0;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+  }
+
+  .pequena {
+    max-width: 350px;
+  }
+
+  strong {
+    color: var(--cor4);
+    font-weight: bold;
+    padding: 2px;
+  }
+
+  a {
+    text-decoration: none;
+    background-color: var(--cor1);
+    font-weight: bold;
+    color: var(--cor5);
+    padding: 2px 6px;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    color: var(--cor4);
+  }
+
+  aside {
+    background-color: var(--cor1);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+
+    h3 {
+      background-color: var(--cor4);
+      color: #fff;
+      padding: 10px;
+      margin: -10px -10px 0px -10px;
+      border-radius: 5px 5px 0 0;
+      font-weight: normal;
+    }
+
+    ul {
+      list-style-position: inside;
+      list-style-type: "\2714\00A0\00A0";
+      columns: 2;
+    }
+  }
+
+  .video {
+    margin: 0 -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 59%;
+    position: relative;
+
+    iframe {
+      position: absolute;
+      top: 5%;
+      left: 5%;
+      width: 90%;
+      height: 90%;
+    }
+  }
+}
+
+footer {
+  background-color: var(--cor5);
+  color: #e68c8c;
+  text-align: center;
+  font-size: 0.8rem;
+  padding: 5px;
+
+  a {
+    color: #fff;
+    font-weight: bolder;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    color: var(--cor1);
+  }
+}
+
+    </style>
+    <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/2/20/Marina_Sena_logo.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Marina Sena</h1>
+        <p>Amiudadamente</p>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Shows</a>
+            <a href="#">Agendamento</a>
+            <a href="#">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <h1>História da Marina Sena</h1>
+
+            <p>Marina de Oliveira Sena (Taiobeiras, 26 de setembro de 1996), mais conhecida pelo seu nome artístico <strong>Marina Sena</strong>, é uma cantora e compositora brasileira.
+
+                A artista começou a carreira com vocalista do grupo musical mineiro A Outra Banda da Lua, onde fez shows por várias cidades de Minas Gerais. Tornou-se conhecida enquanto vocalista da Banda Rosa Neon, quando viralizou com a canção "Ombrim" junto aos demais membros..</p>
+
+           <h1>Biografia</h1>
+
+                <h2>Infância e estreia na música</h2>
+
+            <p>Marina de Oliveira Sena nasceu em <a href="https://pt.wikipedia.org/wiki/Taiobeiras" target="_blank" rel="noopener noreferrer">Taiobeiras</a>, município no norte de Minas Gerais, no dia 26 de setembro de 1996. Marina Sena começou a compor música aos 15 anos, e aos 17 participou de seletiva para o programa The Voice Brasil, mas não chegou a ser concorrente do programa. Iniciou sua carreira musical profissional aos 18 anos, recebendo apoio de sua família desde o início, uma vez que cantava desde que era criança.</p>
+
+            <picture>
+                <source media="(max-width:670px)" srcset="https://s2-g1.glbimg.com/KWL4Zl_y--4nOUDdJqP9uCy1eOY=/0x9:1106x314/1008x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2021/b/n/EpdQZnTvWhpYcErn2T2w/marinasena.png"><img src="https://s2-g1.glbimg.com/KWL4Zl_y--4nOUDdJqP9uCy1eOY=/0x9:1106x314/1008x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2021/b/n/EpdQZnTvWhpYcErn2T2w/marinasena.png" alt="Marina Sena criança" width="300" height="200">
+            </picture>
+
+            <p>Durante sua adolescência, foi considerada <strong>"a doida da cidade"</strong>.</p>
+
+            <h2>2019–2020: Rosa Neon</h2>
+
+            <p>Em 2019, juntamente com os músicos Baka e Marcelo Tofani, formou o grupo de música pop  <a href="https://rollingstone.uol.com.br/noticia/conheca-o-rosa-neon-banda-pop-queridinha-de-djonga/" target="_blank" rel="noopener noreferrer">Rosa Neon</a>, composto por Marina Sena, Marcelo Tofani, Mariana Cavanellas, Luiz Gabriel Lopes e Baka,.</p>
+
+            <picture>
+                <source media="(max-width: 670px)" srcset="https://rollingstone.uol.com.br/media/_versions/rosa_neon_-_sarah_leal_widelg.jpg"><img src="https://rollingstone.uol.com.br/media/_versions/rosa_neon_-_sarah_leal_widelg.jpg" alt="Banca Rosa Neon" width="300" height="450">
+            </picture>
+
+            <p>mas que se dissolveu no início de 2021, após a publicação do clipe de despedida <strong>"A Gente é Demais"</strong>.</p>
+
+           <center>
+            <iframe width="560" height="500" src="https://www.youtube.com/embed/p2tezRdltbM?si=u8Ukr3e3Apw-z5iP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" frameborder="0" allowfullscreen></iframe>
+        </center>
+            <aside>
+                <h3>Músicas mais conhecidas</h3>
+
+                <p>Destaque na música brasileira contemporânea, as melhores músicas de Marina Sena mostram o talento da mineira que estourou em 2021 com o hit Por Supuesto..</p>
+
+                <ul>
+                    <li>1º - <abbr title="Por Supuesto ">Por Supuesto </abbr></li>
+                    <li>2º - <abbr title="Mande um Sinal">Mande um Sinal</abbr></li>
+                    <li>3º - <abbr title="Dano Sarrada">Dano Sarrada</abbr></li>
+                    <li>4º - <abbr title="Sonho Bom">Sonho Bom</abbr></li>
+                    <li>5º - <abbr title="Olho no Gato">Olho no Gato</abbr></li>
+                    <li>6º - <abbr title="Tudo Pra Amar Você">Tudo Pra Amar Você</abbr></li>
+                    <li>7º - <abbr title="Me Toca">Me Toca</abbr></li>
+                    <li>8º - <abbr title="Pra Ficar Comigo">Pra Ficar Comigo</abbr></li>
+                    <li>9º - <abbr title="Meu Paraíso Sou Eu">Meu Paraíso Sou Eu</abbr></li>
+                    <li>10º - <abbr title="Mais de Mil">Mais de Mil</abbr></li>
+                    <li>11º - <abbr title="Tudo Seu">Tudo Seu</abbr></li>
+                    <li>12º - <abbr title="Que Tal (part. Fleezus)">Que Tal (part. Fleezus)</abbr></li>
+                </ul>
+
+                <p>Após viralizar no TikTok durante a pandemia, Marina se estabeleceu na cena musical e mostra que a sorte de principiante pode até ter ajudado, mas confirma o seu talento após lançar dois discos: De Primeira, seu álbum de estreia, e o mais recente, Vício Inerente.</p>
+
+                <p>Se deixe levar pela voz aguda e pela sensualidade marcante de <a href="https://www.letras.mus.br/blog/melhores-musicas-marina-sena/" target="_blank" rel="noopener noreferrer">Marina Sena.</a> Ouça a seleção que preparamos com as melhores da sua carreira.</p>
+            </aside>
+
+            <p>Então é isso! Espero que você tenha gostado do nosso artigo sobre Marina Sena e as suas contribuições no cenário musical brasileiro</p>
+        </article>
+    </main>
+
+    <footer>
+        <p>Site criado por <a href="https://www.instagram.com/weversonsn/" target="_blank" rel="noopener noreferrer">Weverson Silva</a> para o SENAC - Curso de Programação</a>.</p>
+    </footer>
+</body>
+</html>
